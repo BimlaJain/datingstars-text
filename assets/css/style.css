@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Raleway", system-ui;
+}
+
+.bg-image-datingstars {
+    background-image: url("../images/Datingstars-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max-w-1140 {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.font-w-600 {
+    font-weight: 600;
+}
+
+.font-w-400 {
+    font-weight: 400;
+}
+
+.leading-150 {
+    line-height: 150%;
+}
+
+.leading-120 {
+    line-height: 120%;
+}
+
+.pt-195 {
+    padding-top: 195px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.max-w-760 {
+    max-width: 760px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.card-box {
+    max-width: 364px;
+    border: 1px solid #FFFFFF4D;
+    background: #FFFFFF1A 10%;
+    padding: 20px 20px 44px 20px;
+    border-radius: 22px;
+}
+
+.card-box:hover {
+    border: 1px solid #F7B103;
+
+    background: #F7B1030D 5%;
+    padding: 20px 20px 44px 20px;
+    border-radius: 22px;
+}
+
+.card-box1 {
+    max-width: 364px;
+    border: 1px solid #FFFFFF4D;
+    background: #FFFFFF1A 10%;
+    padding: 20px;
+    border-radius: 22px;
+}
+
+.card-box1:hover {
+    border: 1px solid #F7B103;
+    background: #F7B1030D 5%;
+    padding: 20px;
+    border-radius: 22px;
+}
+
+.box-icon-size {
+    max-width: 60px;
+    height: 60px;
+}
+.w-364{
+    width: 364px;
+}
+
+.slider-card {    
+    max-width: 364px;
+}
+.slider-card2 {
+    background-image: url("../images/slider2-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 364px;
+}
+.slider-card3 {
+    background-image: url("../images/slider3-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 364px;
+}
+.small-box{
+    background: #0000001A 10%;
+    border: 1px solid #FFFFFF66;
+    padding: 10px;
+    max-width: 309px;
+    border-radius: 6px;
+    backdrop-filter: blur(30px);
+}
+
+.white-space-nowrap{
+    white-space: nowrap;
+}
+.top-63{
+    top: 63%;
+}
+.left-8{
+    left: 8%;
+}
+.gap-95{
+    gap: 95px;
+}
+.br-12{
+    border-radius: 12px;
+}
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.max-w-291{
+    max-width: 291px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.input-info{
+    border: 1px solid #828282;
+    border-radius: 10px;    
+}
+.pb-95{
+    padding-bottom: 95px;
+}
+.max-w-510{
+    max-width: 510px;
+}
+.max-w-474{
+    max-width: 474px;
+}
+.max-w-565{
+    max-width: 565px;
+}
+.info-box{
+    position:relative;
+    padding: 50px;
+    background: #F7B1031A 10%;
+    border-radius: 22px;
+}
+.info-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 22px;
+    border: 1px solid;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: linear-gradient(180deg, #F7B103 0%, rgba(247, 177, 3, 0) 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.slider-box{
+    border: 1px solid #FFFFFF33;
+    background: #FFFFFF1A 10%;
+    padding: 20px;
+}
+.name-input{
+    width: 50%;
+}
+.user-img-size{
+    width: 67px !important;
+    height: 67px !important;
+}
+#slider-first .slick-next,
+.slick-prev{
+    left: 98% !important;
+}
+.slick-next:before{
+    font-size: 35px !important;
+}
+#footer .slick-next{
+ top: 97% !important;
+ left: 56% !important;
+}
+#footer .slick-prev:before{
+    font-size: 35px !important;
+}
+#footer .slick-next,
+.slick-prev{
+    top: 95% !important;
+}
+
+@media (max-width:576px) {
+    .card-box {
+        padding: 15px 15px 0px 15px;
+    }
+
+    .card-box:hover {
+        padding: 15px 15px 0px 15px;
+    }
+    .name-input{
+        width: 100%;
+    }
+
+    .card-box {
+        padding: 15px;
+    }
+
+    .card-box:hover {
+        padding: 15px;
+    }
+
+    .box-icon-size {
+        max-width: 60px;
+        height: 60px;
+        margin: auto;
+    }
+    .pb-50{
+        padding-bottom: 50px !important;
+    }
+    .pt-50{
+        padding-top: 50px !important;
+    }
+}
