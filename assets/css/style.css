@@ -256,6 +256,9 @@
     }
         #slider-first .slick-next,
         .slick-prev {
-            left: 98% !important;
+            left: 93% !important;
         }
+                .info-box {                    
+                    padding: 20px;                    
+                }
 }
